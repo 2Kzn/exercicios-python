@@ -1,0 +1,7 @@
+salario = float(input("Forneça Seu Salario "))
+aumento = float(input("Forneça O Percentual De Aumento "))
+aumento = aumento.replace("." , ",")
+aumento = (salario * aumento / 100)
+novosalario = (salario + aumento)
+print(f"Seu Salario Teve Um Aumento De R$ {aumento} ")
+print(f"Agora Você Recebe R$ {novosalario}")

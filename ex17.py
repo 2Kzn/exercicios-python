@@ -1,0 +1,5 @@
+salariobase = int(input("Forneça Seu Salario base "))
+aumento1 = (salariobase * 0.05)
+aumento2 = (salariobase * 0.07)
+salariocomaumento = (salariobase + aumento1 + aumento2)
+print(f"Seu Salario Com Os Dois Aumento É {salariocomaumento}")
