@@ -1,3 +1,4 @@
+import math
 coe1 = float(input("Digite o primeiro coeficiente: "))
 coe2 = float(input("Digite o segundo coeficiente: "))
 coe3 = float(input("Digite o terceiro coeficiente: "))
